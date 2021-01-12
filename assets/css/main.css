@@ -3017,6 +3017,17 @@ input, select, textarea {
 				display: block;
 			}
 
+			.spotlights > section > .image {
+				transition: filter .2s ease-in-out;
+  			-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  			filter: grayscale(100%); /* FF 35+ */
+			}
+
+			.spotlights > section > .image:hover {
+				-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+ 				filter: grayscale(0%); /* FF 35+ */
+			}
+
 			.spotlights > section > .image:before {
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
@@ -3069,6 +3080,22 @@ input, select, textarea {
 
 		.spotlights > section:nth-child(3) {
 			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+		.spotlights > section:nth-child(4) {
+			background-color: rgba(0, 0, 0, 0.15);
+		}
+
+		.spotlights > section:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+
+		.spotlights > section:nth-child(6) {
+			background-color: rgba(0, 0, 0, 0.25);
+		}
+
+		.spotlights > section:nth-child(7) {
+			background-color: rgba(0, 0, 0, 0.3);
 		}
 
 		.spotlights > section.inactive > .image:before,

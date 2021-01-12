@@ -3907,3 +3907,36 @@ input, select, textarea {
 			}
 
 		}
+
+		#intro .inner {
+			display: flex;
+			align-items: center;
+		}
+
+		#intro .inner .image.phone {
+			width: 350px;
+			margin-left: 100px;
+		}
+
+		#intro .inner .image.phone img {
+			width: 100%;
+		}
+
+		#intro .inner .content {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin-left: 0;
+		}
+
+		@media screen and (max-width: 600px) {
+			#intro .inner {
+				flex-direction: column;
+			}
+
+			#intro .inner .image.phone {
+				width: 80%;
+				margin: 0 auto;
+			}
+
+		}

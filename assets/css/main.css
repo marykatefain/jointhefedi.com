@@ -3017,17 +3017,6 @@ input, select, textarea {
 				display: block;
 			}
 
-			.spotlights > section > .image {
-				transition: filter .2s ease-in-out;
-  			-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  			filter: grayscale(100%); /* FF 35+ */
-			}
-
-			.spotlights > section > .image:hover {
-				-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
- 				filter: grayscale(0%); /* FF 35+ */
-			}
-
 			.spotlights > section > .image:before {
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
